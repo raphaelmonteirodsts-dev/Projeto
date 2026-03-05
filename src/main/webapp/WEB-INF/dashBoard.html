@@ -1,15 +1,99 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
+
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <link rel="stylesheet" href="css/reset.css"/>
+        <link rel="stylesheet" href="css/color.css"/>
+        <title>Dashboard</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <!-- Cabeçalho -->
+        <header>
+            <h1>Sistema de estoque</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Gerenciamento</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div>
+                    <h2>Entrada</h2>
+                    <p>123</p>
+                </div>
+                <div>
+                    <h2>Saída</h2>
+                    <p>333</p>
+                </div>
+                <div>
+                    <h2>Total</h2>
+                    <p>33</p>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <label>Data</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label>Tipo</label>
+                    <select>
+                        <option>Selecione uma opção</option>
+                        <option>Entrada</option>
+                        <option>Saída</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Pesquisar intem</label>
+                    <input type="text" placeholder="Digite o nome do produto">
+                </div>
+                <div>
+                    <button>Pesquisar</button>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Codigo de barras</th>
+                                <th>Nomes</th>
+                                <th>Frabricante</th>
+                                <th>Marca</th>
+                                <th>Quantidade</th>
+                                <th>Valor unitario</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>123456789</td>
+                                <td>Mouse</td>
+                                <td>Razer</td>
+                                <td>VaporX</td>
+                                <td>2</td>
+                                <td>R$300,00</td>
+                                <td>R$600,00</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>12346546419</td>
+                                <td>Bola</td>
+                                <td>7poker</td>
+                                <td>Bola777</td>
+                                <td>2</td>
+                                <td>R$150,00</td>
+                                <td>R$300,00</td>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
